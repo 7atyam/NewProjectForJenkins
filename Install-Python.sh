@@ -9,7 +9,7 @@ log() {
 }
 
 # Check if the script is run as root
-if [[ $EUID -ne 0 ]]; then
+ [[ $EUID -ne 0 ]]; then
     log "Please run the script as root or with sudo."
     exit 1
 fi
