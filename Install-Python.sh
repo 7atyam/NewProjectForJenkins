@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Log file
-LOG_FILE="python_install.log"
+LOG_FILE="python_install_new.log"
 
 # Logging function
 log() {
